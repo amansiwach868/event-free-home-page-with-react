@@ -5,7 +5,7 @@ import { achievementCardData } from '../utils/helper.js';
 const Achievement = () => {
     const card = achievementCardData.map((item, i) => (
         <div key={i} className="flex flex-col justify-center items-center gap-[3px]">
-            <img src={`src/assets/images/svg/achievement-card-img-${i + 1}.svg`} alt={`achievement card img`} />
+            <img src={item.img} alt={`achievement card img`} />
             <HeadingPara
                 headingText={item.heading}
                 paraText={item.para}

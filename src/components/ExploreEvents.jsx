@@ -5,7 +5,7 @@ import { exploreCardData } from '../utils/helper.js';
 const ExploreEvents = () => {
   const card = exploreCardData.map((item, i) => (
     <div key={i} className="px-3 pt-[10px] pb-[24px] hover:shadow-[2px_9px_32px_0px_#0000000F] duration-300 min-w-[250px] mx-auto">
-      <img className='mb-3' src={`src/assets/images/png/explore-card-img-${i + 1}.png`} alt={`explore card img`} />
+      <img className='mb-3' src={item.img} alt={`explore card img`} />
       <span className='text-[14px] text-black/70'>{item.date}</span>
       <HeadingPara
         headingText={item.heading}

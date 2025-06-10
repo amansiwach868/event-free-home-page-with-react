@@ -8,7 +8,7 @@ const Special = () => {
         <div key={i} className="max-lg:w-1/3 lg:w-1/2 max-sm:w-1/2 max-sm:min-w-[260px] px-[15px]">
             <div className='px-5 pt-[45px] pb-[17px] border border-[#2C49FE] hover:bg-[#2C49FE] duration-300 relative rounded-[5px] group'>
                 <div className="h-[79px] w-[79px] border border-[#2C49FE] rounded-full flex absolute bg-white z-10 justify-center items-center -top-[40px] left-1/2 -translate-x-1/2">
-                    <img src={`src/assets/images/svg/special-card-img-${i+1}.svg`} alt={`special card img`} />
+                    <img src={item.img} alt={`special card img`} />
                 </div>
                 <HeadingPara
                     headingText={item.heading}

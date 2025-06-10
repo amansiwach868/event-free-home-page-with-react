@@ -1,12 +1,13 @@
 import React from 'react'
 import HeadingPara from './common/HeadingPara'
 import Input from './common/Input'
+import ImageJoin from "../assets/images/png/join-us-img.png"
 
 const JoinUs = () => {
     return (
         <div>
             <div className="max-w-[1320px] w-full mx-auto px-3 grid md:grid-cols-2 sm:pb-[90px] pb-[50px] gap-10">
-                <img src="src/assets/images/png/join-us-img.png" alt=" join us img" className='m-auto' />
+                <img src={ImageJoin} alt=" join us img" className='m-auto' />
                 <div className="">
                     <HeadingPara
                         headingText={'Join Us !'}

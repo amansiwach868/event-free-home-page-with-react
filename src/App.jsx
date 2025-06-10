@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Special />
-      <Achievement />
+      <Achievement /> */}
       <ExploreEvents />
       <JoinUs/>
       <Footer />

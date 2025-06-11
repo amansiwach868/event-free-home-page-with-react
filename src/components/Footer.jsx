@@ -64,12 +64,12 @@ const Footer = () => {
                     <ul className='flex flex-col gap-[11px]'>
                         <li className='text-[14px] font-bold text-white'>GALLERY</li>
                         <ul className='grid sm:grid-cols-3 grid-cols-2 gap-[18px]'>
-                            <li><a href="#"><img src={footerImg1} alt={`footer-img-1`} /></a></li>
-                            <li><a href="#"><img src={footerImg2} alt={`footer-img-2`} /></a></li>
-                            <li><a href="#"><img src={footerImg3} alt={`footer-img-3`} /></a></li>
-                            <li><a href="#"><img src={footerImg4} alt={`footer-img-4`} /></a></li>
-                            <li><a href="#"><img src={footerImg5} alt={`footer-img-5`} /></a></li>
-                            <li className='sm:text-[12px] text-[8px] font-bold relative text-white text-center'><a href="#"><img src={footerImg6} alt={`footer-img-6`} /></a><a className=' absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' href="#">Show <br />More</a></li>
+                            <li className='overflow-clip group'><a href="#"><img className='group-hover:scale-125 duration-300' src={footerImg1} alt={`footer-img-1`} /></a></li>
+                            <li className='overflow-clip group'><a href="#"><img className='group-hover:scale-125 duration-300' src={footerImg2} alt={`footer-img-2`} /></a></li>
+                            <li className='overflow-clip group'><a href="#"><img className='group-hover:scale-125 duration-300' src={footerImg3} alt={`footer-img-3`} /></a></li>
+                            <li className='overflow-clip group'><a href="#"><img className='group-hover:scale-125 duration-300' src={footerImg4} alt={`footer-img-4`} /></a></li>
+                            <li className='overflow-clip group'><a href="#"><img className='group-hover:scale-125 duration-300' src={footerImg5} alt={`footer-img-5`} /></a></li>
+                            <li className='sm:text-[12px] text-[8px] font-bold relative text-white text-center overflow-clip group'><a href="#"><img src={footerImg6} alt={`footer-img-6`} /></a><a className=' absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hover:text group-hover:scale-125 duration-300' href="#">Show <br />More</a></li>
                         </ul>
                     </ul>
                 </div>

@@ -22,7 +22,7 @@ const Header = () => {
                 <p className='text-[20px] text-white max-w-[765px] w-full font-[Yantramanav] mt-[18px] mb-[33px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
                 <div className="flex gap-[23px] items-center">
                     <CustomButton><b className=' font-semibold'>Get Started</b></CustomButton>
-                    <a className='text-[20px] text-white' href="#">Learn more</a>
+                    <a className='text-[20px] text-white hover:scale-110 duration-300' href="#">Learn more</a>
                 </div>
                 <div className="bg-[#2C49FEBD] rounded-[50px] max-w-[962px] w-full py-[17px] lg:pl-[35px] lg:pr-[23px] px-[17px] flex lg:flex-row flex-col justify-center items-center lg:mt-[165px] mt-[50px] gap-y-10 relative overflow-hidden" >
                     <div className="md:flex lg:justify-between justify-around w-full grid grid-cols-2 max-md:gap-10 max-sm:grid-cols-1">
@@ -60,11 +60,11 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="max-lg:hidden min-h-[74px] border-[2px] border-white w-0"></div>
-                        <button className='md:hidden inline py-5 px-10 text-[20px] font-bold text-[#2C49FE] bg-white rounded-[50px] lg:ml-[82px] text-nowrap hover:bg-[#2C49FE] hover:text-white duration-300'>GO CHECK</button>
+                        <button className='md:hidden inline py-5 px-10 text-[20px] font-bold text-[#2C49FE] bg-white rounded-[50px] lg:ml-[82px] text-nowrap hover:bg-[#2C49FE] hover:text-white duration-300 cursor-pointer'>GO CHECK</button>
                     </div>
                     <div className="w-full border-[2px] border-white max-sm:hidden md:hidden absolute top-1/2 -translate-1/2 left-1/2"></div>
                     <div className="w-full border-[2px] border-white max-sm:hidden md:hidden absolute top-1/2 -translate-1/2 left-1/2 rotate-90"></div>
-                    <button className='max-md:hidden inline py-5 px-10 text-[20px] font-bold text-[#2C49FE] bg-white rounded-[50px] lg:ml-[82px] text-nowrap hover:bg-[#2C49FE] hover:text-white duration-300'>GO CHECK</button>
+                    <button className='max-md:hidden inline py-5 px-10 text-[20px] font-bold text-[#2C49FE] bg-white rounded-[50px] lg:ml-[82px] text-nowrap hover:bg-[#2C49FE] hover:text-white duration-300 cursor-pointer'>GO CHECK</button>
                 </div>
             </div>
         </div>
